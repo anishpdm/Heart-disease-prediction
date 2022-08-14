@@ -25,7 +25,6 @@ dataset.describe()
 
 y = dataset["target"]
 
-sns.countplot(y)
 
 
 target_temp = dataset.target.value_counts()
